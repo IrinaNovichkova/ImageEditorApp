@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="583884e7-ce4d-45be-a19c-b496d54a6cad" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/Lab/LabService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="9f67295f-a24a-4f5d-84fc-3683e0c968fc" SourceId="1" SourceUrl="http://localhost:8000/Lab/LabService/?xsd=xsd3" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="45fac65e-9b8a-4686-aff3-7f9a9c33b9e0" SourceId="1" SourceUrl="http://localhost:8000/Lab/LabService/?xsd=xsd2" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="dc7e88b0-a7d5-458a-a549-eb2d89b67eeb" SourceId="1" SourceUrl="http://localhost:8000/Lab/LabService/?xsd=xsd1" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="bf3ec09a-ecb5-451f-8882-c165753ee4bf" SourceId="1" SourceUrl="http://localhost:8000/Lab/LabService/?xsd=xsd0" />
+    <MetadataFile FileName="LabService.wsdl" MetadataType="Wsdl" ID="6871b019-6bca-4da8-b461-f44a25c7a3c5" SourceId="1" SourceUrl="http://localhost:8000/Lab/LabService/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="1d6977ce-d4c8-47ac-9aea-520fb0ec9af4" SourceId="1" SourceUrl="http://localhost:8000/Lab/LabService/?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

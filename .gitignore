@@ -3,3 +3,11 @@
 ################################################################################
 
 /Entities/bin
+/.vs/Lab/v15/Server/sqlite3
+/Entities/obj
+/Lab/bin
+/Lab/obj
+/LabHost/bin
+/LabHost/obj
+/LabService/bin
+/LabService/obj
